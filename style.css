@@ -1,3 +1,8 @@
+html {
+    /* Font size trick to set 10px by default */
+    font-size: 62.5%;
+}
+
 body {
     /* Adding from Google Fonts */
     font-family: 'Quicksand', sans-serif;
@@ -6,3 +11,42 @@ body {
     padding: 0;
     margin: 0;
 }
+nav {
+    background-color: #111;
+
+    /*  Text color  */
+    color: ivory;
+
+    /* With font-size trick*/
+    /* short-hand: top-and-bottom left-and-right */
+    padding: 2rem 5rem;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.search-input {
+    border: none;
+    background-color: transparent;
+}
+
+.search-input::placeholder {
+    color: #eaeae2;
+}
+
+.buzzword {
+    font-size: 2rem;
+    border-bottom: .2rem solid rgba(255, 0, 255, 0.55);
+}
+
