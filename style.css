@@ -46,7 +46,23 @@ nav {
 }
 
 .buzzword {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-bottom: .2rem solid rgba(255, 0, 255, 0.55);
+    text-align: center;
+}
+
+/*Bottom nav bar - top of page*/
+
+.bot-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item {
+    cursor: pointer;
+    font-weight: 800;
+    color: lightgray;
+    font-size: 1.5rem;
 }
 
